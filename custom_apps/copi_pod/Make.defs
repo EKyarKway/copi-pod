@@ -1,0 +1,3 @@
+ifneq ($(CONFIG_CUSTOM_APPS_COPI_POD),)
+CONFIGURED_APPS += $(APPDIR)/custom_apps/copi_pod
+endif
